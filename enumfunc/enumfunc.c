@@ -26,7 +26,7 @@
 #include "ext/standard/info.h"
 #include "php_enumfunc.h"
 #include <dlfcn.h>
-#define LOG_PATH "/opt/php-7.4/var/log/enumfunc.log"
+#define LOG_PATH "/var/log/enumfunc.log"
 /* For compatibility with older PHP versions */
 #ifndef ZEND_PARSE_PARAMETERS_NONE
 #define ZEND_PARSE_PARAMETERS_NONE()                                           \
